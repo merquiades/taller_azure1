@@ -9,8 +9,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:Label ID="Label1" runat="server" Text="Label" style="left: 36px; position: relative; top: 16px"></asp:Label>
-        <asp:Button ID="Button1" runat="server" Text="Button" style="left: 47px; position: relative; top: 19px" OnClick="Button1_Click" /></div>
+        <asp:Label ID="Label1" runat="server" Text="Label" style="left: 145px; position: relative; top: 111px" Width="109px"></asp:Label>
+        <asp:TextBox ID="TextBox1" runat="server" Style="left: 92px; position: relative;
+            top: 53px"></asp:TextBox>
+        <asp:Label ID="Label2" runat="server" Style="left: -112px; position: relative; top: -8px"
+            Text="Prueba"></asp:Label>
+        <asp:Button ID="Button1" runat="server" Text="Comentar" style="left: -233px; position: relative; top: 51px" OnClick="Button1_Click" /></div>
     </form>
 </body>
 </html>
