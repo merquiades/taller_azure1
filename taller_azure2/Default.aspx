@@ -9,8 +9,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-    </div>
+        <asp:Label ID="Label1" runat="server" Text="Label" style="left: 36px; position: relative; top: 16px"></asp:Label>
+        <asp:Button ID="Button1" runat="server" Text="Button" style="left: 47px; position: relative; top: 19px" OnClick="Button1_Click" /></div>
     </form>
 </body>
 </html>
